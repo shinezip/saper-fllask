@@ -1,0 +1,24 @@
+body {
+font-family: sans-serif;
+text-align: center;
+}
+#board {
+display: grid;
+grid-template-columns: repeat(10, 30px);
+justify-content: center;
+gap: 2px;
+}
+.cell {
+width: 30px;
+height: 30px;
+background: #ccc;
+border: 1px solid #999;
+display: flex;
+align-items: center;
+justify-content: center;
+cursor: pointer;
+font-weight: bold;
+}
+.cell.revealed {
+background: #eee;
+}
