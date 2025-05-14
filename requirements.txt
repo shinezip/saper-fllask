@@ -8,7 +8,6 @@ chardet==5.2.0
 charset-normalizer==3.4.1
 click==8.1.8
 colorama==0.4.6
-crit==4.0
 cryptography==43.0.0
 cssselect==1.2.0
 decorator==5.1.1
